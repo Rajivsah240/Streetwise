@@ -15,29 +15,10 @@ body{
     /* width: 1776px; */
 }
 
-.left-btn{
-  align-items: flex-start;
-    background-color: transparent;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    gap: 10px;
-    height: auto;
-    justify-content: center;
-    padding: 10px;
-    position: relative;
+.left-btn:hover{
+  background-color: transparent !important;
 }
-.logo{
-  align-items: center;
-    background-color: transparent;
-    display: flex;
-    gap: 10px;
-    height: auto;
-    justify-content: center;
-    padding: 10px;
-    position: relative;
-    width: fit-content;
-}
+
 .right-btn{
   align-items: center;
   background-color: transparent;
@@ -102,58 +83,41 @@ body{
 }
 
 /*Contact */
+
+
+
+.user-log-sign-btn{
+  align-items: center ;
+  background-color: #ffffff !important;
+  border-radius: 45px !important;
+}
+
+.log-sign{
+  
+  color: #1e1e1e !important;
+  font-family: "Consolas-Regular",Helvetica ;    
+  font-style: normal ;
+  font-weight: 400 ;
+  letter-spacing: 0.00px ;
+  line-height: normal ;
+  position: relative ;
+  text-align: center ;
+  white-space: nowrap ;
+  width: fit-content ;
+}
 .contact-btn{
-  align-items: center;
-  background-color: transparent;
-  border-radius: 45px;
-  display: flex;
-  gap: 10px;
-  height: 25px;
-  justify-content: center;
-  padding: 10px;
-  position: relative;
-  width: 80px;
+  background-color: transparent !important;
+  color: white !important;
+  
 }
-
-.contact-btn .contact{
-    background-color: transparent;
-    color: white;
-    font-family: "Consolas",Helvetica;    
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    /* mix-blend-mode: normal; */
-    position: relative;
-    text-align: center;
-    white-space: nowrap;
-    width: fit-content;
-}
-
-.signup-btn{
-  align-items: center;
-  background-color: #ffffff;
-  border-radius: 45px;
-  display: flex;
-  gap: 10px;
-  height: 25px;
-  justify-content: center;
-  padding: 10px;
+.log-sign:hover
+{
+  background-color: #851de0 !important;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0) !important;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
   position: relative;
-  width: 80px;
-}
-
-.sign-up{
-  background-color: transparent;
-  color: #1e1e1e;
-  font-family: "Consolas-Regular",Helvetica;    
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  /* mix-blend-mode: normal; */
-  position: relative;
-  text-align: center;
-  white-space: nowrap;
-  width: fit-content;
+  transition-duration: 0.3s !important;
+  transition-property: transform !important;
 }

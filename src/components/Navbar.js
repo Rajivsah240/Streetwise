@@ -1,25 +1,24 @@
-import React from 'react'
-import MenuBtn from './MenuBtn'
-import Logo from './Logo'
-import ContactBtn from './ContactBtn'
-import SignupBtn from './SignupBtn'
-
+import React from "react";
+import MenuBtn from "./MenuBtn";
+import { Stack,Button } from "@mui/material";
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-        <div className='left-btn'>
-            <MenuBtn/>
-        </div>
-        <div className='logo'>
-            <Logo/>
-        </div>
-        <div className='right-btn'>
-            <ContactBtn/>
-            <SignupBtn/>
-        </div>
-    </div>
-  )
-}
+    <Stack className="navbar" flexDirection={"row"} justifyContent={"space-around"}>
+      <Button className="left-btn">
+        <MenuBtn />
+      </Button>
+      <div className="LOGO">
+        <div className="streetwise">StreetWise</div>
+      </div>
+      <Stack className="right-btn" flexDirection={"row"}>
+        <Button className="user-log-sign-btn log-sign contact-btn">
+          Contact
+        </Button>
+        <Button className="user-log-sign-btn log-sign">Sign Up</Button>
+      </Stack>
+    </Stack>
+  );
+};
 
-export default Navbar
+export default Navbar;

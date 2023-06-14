@@ -118,6 +118,7 @@ body{
 /*Search Button*/
 .search-btn-input {
   font-weight: 700;
+  padding-left: 15px;
   border: 1px solid #EB5939;
   width: 100%;
   background-color: transparent;
@@ -213,6 +214,7 @@ body{
  /*Hover*/
  .card:hover {
   transform: translateY(5%);
+  height: 350px;
  }
  
  .card:hover:before {

@@ -25,7 +25,7 @@ const PageBanner = () => {
           Inspiring, Connecting, and Empowering
         </Typography>
       </Stack>
-      <Stack mt={'50px'} flexDirection={"row"} justifyContent={"flex-end"} paddingRight={'30px'}>
+      <Stack mt={'50px'} flexDirection={"row"} justifyContent={'center'}/*paddingRight={'30px'}*/>
         <Stack
           sx={{ width: "50%" }}
           flexDirection={"row"}
@@ -34,8 +34,9 @@ const PageBanner = () => {
           <input className="search-btn-input"
             value={search}
             onChange={(e) => setSearch(e.target.value.toLowerCase())}
-            placeholder=" Type Your Search Here"
+            placeholder="Type Your Search Here"
             type="text"
+            
           />
           <Button className="search-btn"
             sx={{

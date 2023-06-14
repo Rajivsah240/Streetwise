@@ -1,8 +1,9 @@
 import React from 'react'
+import PageBanner from '../components/PageBanner'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <PageBanner/>
   )
 }
 

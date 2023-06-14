@@ -113,3 +113,19 @@ body{
   transition-duration: 0.3s !important;
   transition-property: transform !important;
 }
+
+
+/*Search Button*/
+.search-btn-input {
+  font-weight: 700;
+  border: 1px solid #EB5939;
+  width: 100%;
+  background-color: transparent;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+
+.search-btn:hover{
+  background-color: #EB5939 !important;
+  opacity: 0.5;
+}

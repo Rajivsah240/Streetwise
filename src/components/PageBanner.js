@@ -20,7 +20,7 @@ const PageBanner = () => {
         <Typography
           color={"#ffffff"}
           fontSize={"40px"}
-          fontFamily={"Open-Sans"}
+          fontFamily={"Open-Sans,Regular"}
         >
           Inspiring, Connecting, and Empowering
         </Typography>

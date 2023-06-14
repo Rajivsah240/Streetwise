@@ -5,14 +5,15 @@ body{
 
 /*Navbar*/
 .navbar{
-  align-items: center;
+    align-items: center;
     background-color: transparent;
     display: flex;
     gap: 192px;
     height: auto;
     justify-content: center;
     position: relative;
-    /* width: 1776px; */
+    padding: 30px;
+    padding-top: 15px;
 }
 
 .left-btn:hover{
@@ -46,15 +47,9 @@ body{
 
 .menu-btn .menu{
   color: #ffffff;
-  font-family: "Convergence",Helvetica;
+  font-family: "Convergence",Helvetica !important;
   font-size: 20px;
   font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  text-align: center;
-  white-space: nowrap;
-  width: fit-content;
 }
 
 
@@ -95,15 +90,10 @@ body{
 .log-sign{
   
   color: #1e1e1e !important;
-  font-family: "Consolas-Regular",Helvetica ;    
+  font-family: 'Orbit', sans-serif !important;   /*Kanit instead Of Orbit*/ 
   font-style: normal ;
-  font-weight: 400 ;
-  letter-spacing: 0.00px ;
-  line-height: normal ;
-  position: relative ;
-  text-align: center ;
-  white-space: nowrap ;
-  width: fit-content ;
+  font-weight: 400 !important;
+  text-transform: none !important;
 }
 .contact-btn{
   background-color: transparent !important;
@@ -112,7 +102,7 @@ body{
 }
 .log-sign:hover
 {
-  background-color: #851de0 !important;
+  background-color: #FF8C8C !important;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0) !important;

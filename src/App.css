@@ -95,6 +95,7 @@ body{
   font-style: normal ;
   font-weight: 600 !important;
   text-transform: none !important;
+  padding: 8px 10px !important;
 }
 .contact-btn{
   background-color: transparent !important;
@@ -103,7 +104,7 @@ body{
 }
 .log-sign:hover
 {
-  background-color: #FF8C8C !important;
+  background-color: #EB5939 !important;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0) !important;

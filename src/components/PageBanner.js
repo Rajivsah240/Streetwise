@@ -6,7 +6,7 @@ const PageBanner = () => {
 
   return (
     <>
-      <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
+      <Stack alignItems="center" mt="37px" justifyContent="center" p="30px">
         <Typography
           fontWeight={500}
           sx={{ fontSize: { lg: "80px", xs: "50px" } }}
@@ -25,7 +25,7 @@ const PageBanner = () => {
           Inspiring, Connecting, and Empowering
         </Typography>
       </Stack>
-      <Stack flexDirection={"row"} justifyContent={"flex-end"}>
+      <Stack mt={'50px'} flexDirection={"row"} justifyContent={"flex-end"} paddingRight={'30px'}>
         <Stack
           sx={{ width: "50%" }}
           flexDirection={"row"}

@@ -91,9 +91,9 @@ body{
 .log-sign{
   
   color: #1e1e1e !important;
-  font-family: 'Orbit', sans-serif !important;   /*Kanit instead Of Orbit*/ 
+  font-family: 'Montserrat', sans-serif !important;   /*Kanit instead Of Orbit*/ 
   font-style: normal ;
-  font-weight: 400 !important;
+  font-weight: 600 !important;
   text-transform: none !important;
 }
 .contact-btn{

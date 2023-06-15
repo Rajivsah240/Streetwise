@@ -2,7 +2,7 @@ import React from 'react'
 
 const CommunitySlide = () => {
   return (
-    <div>CommunitySlide</div>
+    <div>Community For:</div>
   )
 }
 

@@ -2,6 +2,7 @@ import React from 'react'
 import PageBanner from '../components/PageBanner'
 import HomeCards from '../components/HomeCards'
 import CommunitySlide from '../components/CommunitySlide'
+import HomeLastSection from '../components/HomeLastSection'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
     <PageBanner/>
     <HomeCards/>
     <CommunitySlide/>
+    <HomeLastSection/>
     </>
   )
 }

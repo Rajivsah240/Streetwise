@@ -25,7 +25,7 @@ const PageBanner = () => {
           Inspiring, Connecting, and Empowering
         </Typography>
       </Stack>
-      <Stack mt={'50px'} flexDirection={"row"} justifyContent={'center'}/*paddingRight={'30px'}*/>
+      <Stack mt={'100px'} flexDirection={"row"} justifyContent={'center'}/*paddingRight={'30px'}*/>
         <Stack
           sx={{ width: "50%" }}
           flexDirection={"row"}

@@ -103,6 +103,7 @@ body{
   color: white !important;
   
 }
+
 .log-sign:hover
 {
   background-color: #EB5939 !important;
@@ -114,7 +115,10 @@ body{
   transition-duration: 0.3s !important;
   transition-property: transform !important;
 }
-
+.contact-btn:hover{
+  text-decoration: underline !important;
+  background-color: transparent!important;
+}
 
 /*Search Button*/
 .search-btn-input {
@@ -215,7 +219,7 @@ body{
  
  /*Hover*/
  .card:hover {
-  transform: translateY(5%);
+  transform: scale(1.1);/*hello*/
   height: 350px;
  }
  

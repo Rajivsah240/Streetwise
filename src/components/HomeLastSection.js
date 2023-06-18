@@ -9,7 +9,7 @@ const HomeLastSection = () => {
         height={"100vh"}
         borderTop={"1px solid white"}
         alignItems={"center"}
-        classNameName="rising-stars"
+        className="rising-stars"
         sx={{
           "&:hover": {
             background: "linear-gradient(45deg, #851DE0, transparent)",
@@ -33,7 +33,7 @@ const HomeLastSection = () => {
           width={"25%"}
         >
           <Typography
-            classNameName="rising-stars-typo"
+            className="rising-stars-typo"
             color={"#851DE0"}
             fontSize={"50px"}
             fontFamily={"Montserrat"}
@@ -42,7 +42,7 @@ const HomeLastSection = () => {
             Meet The Rising Stars
           </Typography>
           <Button
-            classNameName="rising-stars-button"
+            className="rising-stars-button"
             sx={{
               mt: "10px",
               color: "white",
@@ -152,7 +152,7 @@ const HomeLastSection = () => {
         borderTop={"1px solid white"}
         height={"100vh"}
         justifyContent={"center"}
-        classNameName="com-event-1"
+        className="com-event-1"
         sx={{
           "&:hover": {
             background: "linear-gradient(45deg, #EB5939, transparent)",
@@ -176,7 +176,7 @@ const HomeLastSection = () => {
           width={"25%"}
         >
           <Typography
-            classNameName="com-event-typography"
+            className="com-event-typography"
             color={"#EB5939"}
             fontSize={"50px"}
             fontFamily={"Montserrat"}
@@ -185,7 +185,7 @@ const HomeLastSection = () => {
             Community Events
           </Typography>
           <Button
-            classNameName="com-event-button"
+            className="com-event-button"
             sx={{
               mt: "10px",
               color: "white",
@@ -207,7 +207,7 @@ const HomeLastSection = () => {
         height={"100vh"}
         borderTop={"1px solid white"}
         alignItems={"flex-end"}
-        classNameName="exclusive-deals"
+        className="exclusive-deals"
         sx={{
           "&:hover": {
             //backgroundColor: "#EB5939",
@@ -233,7 +233,7 @@ const HomeLastSection = () => {
           width={"30%"}
         >
           <Typography
-            classNameName="exclusive-deals"
+            className="exclusive-deals"
             color={"#EB5939"}
             fontSize={"50px"}
             fontFamily={"Montserrat"}
@@ -242,7 +242,7 @@ const HomeLastSection = () => {
             Exclusive Deals and Discounts
           </Typography>
           <Button
-            classNameName="exclusive-deals-button"
+            className="exclusive-deals-button"
             sx={{
               mt: "10px",
               color: "white",

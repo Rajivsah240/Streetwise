@@ -74,15 +74,15 @@ const HomeLastSection = () => {
               </p>
               <div class="icons">
                 <a href="#">
-                  <i class="ion-social-reddit"></i>
+                <i class="fa-brands fa-facebook"></i>
                 </a>
                 <a href="#">
                   {" "}
-                  <i class="ion-social-twitter"></i>
+                  <i class="fa-brands fa-twitter"></i>
                 </a>
                 <a href="#">
                   {" "}
-                  <i class="ion-social-vimeo"></i>
+                  <i class="fa-brands fa-linkedin"></i>
                 </a>
               </div>
             </figcaption>
@@ -103,15 +103,15 @@ const HomeLastSection = () => {
               </p>
               <div class="icons">
                 <a href="#">
-                  <i class="ion-social-reddit"></i>
+                <i class="fa-brands fa-facebook"></i>
                 </a>
                 <a href="#">
                   {" "}
-                  <i class="ion-social-twitter"></i>
+                  <i class="fa-brands fa-twitter"></i>
                 </a>
                 <a href="#">
                   {" "}
-                  <i class="ion-social-vimeo"></i>
+                  <i class="fa-brands fa-linkedin"></i>
                 </a>
               </div>
             </figcaption>
@@ -132,15 +132,15 @@ const HomeLastSection = () => {
               </p>
               <div class="icons">
                 <a href="#">
-                  <i class="ion-social-reddit"></i>
+                <i class="fa-brands fa-facebook"></i>
                 </a>
                 <a href="#">
                   {" "}
-                  <i class="ion-social-twitter"></i>
+                  <i class="fa-brands fa-twitter"></i>
                 </a>
                 <a href="#">
                   {" "}
-                  <i class="ion-social-vimeo"></i>
+                  <i class="fa-brands fa-linkedin"></i>
                 </a>
               </div>
             </figcaption>

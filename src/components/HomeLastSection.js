@@ -9,7 +9,7 @@ const HomeLastSection = () => {
         height={"100vh"}
         borderTop={"1px solid white"}
         alignItems={"center"}
-        className="rising-stars"
+        classNameName="rising-stars"
         sx={{
           "&:hover": {
             background: "linear-gradient(45deg, #851DE0, transparent)",
@@ -33,7 +33,7 @@ const HomeLastSection = () => {
           width={"25%"}
         >
           <Typography
-            className="rising-stars-typo"
+            classNameName="rising-stars-typo"
             color={"#851DE0"}
             fontSize={"50px"}
             fontFamily={"Montserrat"}
@@ -42,7 +42,7 @@ const HomeLastSection = () => {
             Meet The Rising Stars
           </Typography>
           <Button
-            className="rising-stars-button"
+            classNameName="rising-stars-button"
             sx={{
               mt: "10px",
               color: "white",
@@ -58,8 +58,8 @@ const HomeLastSection = () => {
           </Button>
         </Stack>
         <Stack flexDirection={'row'}>
-          <figure class="snip1559">
-            <div class="profile-image">
+          <figure className="snip1559">
+            <div className="profile-image">
               <img
                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample2.jpg"
                 alt="profile-sample2"
@@ -72,23 +72,23 @@ const HomeLastSection = () => {
                 Which is worse, that everyone has his price, or that the price
                 is always so low.
               </p>
-              <div class="icons">
-                <a href="#">
-                <i class="fa-brands fa-facebook"></i>
+              <div className="icons">
+                <a href="www.google.com">
+                <i className="fa-brands fa-facebook"></i>
                 </a>
-                <a href="#">
+                <a href="www.google.com">
                   {" "}
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a href="www.google.com">
                   {" "}
-                  <i class="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-linkedin"></i>
                 </a>
               </div>
             </figcaption>
           </figure>
-          <figure class="snip1559">
-            <div class="profile-image">
+          <figure className="snip1559">
+            <div className="profile-image">
               <img
                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample7.jpg"
                 alt="profile-sample7"
@@ -101,23 +101,23 @@ const HomeLastSection = () => {
                 I'm killing time while I wait for life to shower me with meaning
                 and happiness.
               </p>
-              <div class="icons">
-                <a href="#">
-                <i class="fa-brands fa-facebook"></i>
+              <div className="icons">
+                <a href="www.google.com">
+                <i className="fa-brands fa-facebook"></i>
                 </a>
-                <a href="#">
+                <a href="www.google.com">
                   {" "}
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a href="www.google.com">
                   {" "}
-                  <i class="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-linkedin"></i>
                 </a>
               </div>
             </figcaption>
           </figure>
-          <figure class="snip1559">
-            <div class="profile-image">
+          <figure className="snip1559">
+            <div className="profile-image">
               <img
                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg"
                 alt="profile-sample6"
@@ -130,17 +130,17 @@ const HomeLastSection = () => {
                 The only skills I have the patience to learn are those that have
                 no real application in life.{" "}
               </p>
-              <div class="icons">
-                <a href="#">
-                <i class="fa-brands fa-facebook"></i>
+              <div className="icons">
+                <a href="www.google.com">
+                <i className="fa-brands fa-facebook"></i>
                 </a>
-                <a href="#">
+                <a href="www.google.com">
                   {" "}
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a href="www.google.com">
                   {" "}
-                  <i class="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-linkedin"></i>
                 </a>
               </div>
             </figcaption>
@@ -152,7 +152,7 @@ const HomeLastSection = () => {
         borderTop={"1px solid white"}
         height={"100vh"}
         justifyContent={"center"}
-        className="com-event-1"
+        classNameName="com-event-1"
         sx={{
           "&:hover": {
             background: "linear-gradient(45deg, #EB5939, transparent)",
@@ -176,7 +176,7 @@ const HomeLastSection = () => {
           width={"25%"}
         >
           <Typography
-            className="com-event-typography"
+            classNameName="com-event-typography"
             color={"#EB5939"}
             fontSize={"50px"}
             fontFamily={"Montserrat"}
@@ -185,7 +185,7 @@ const HomeLastSection = () => {
             Community Events
           </Typography>
           <Button
-            className="com-event-button"
+            classNameName="com-event-button"
             sx={{
               mt: "10px",
               color: "white",
@@ -207,7 +207,7 @@ const HomeLastSection = () => {
         height={"100vh"}
         borderTop={"1px solid white"}
         alignItems={"flex-end"}
-        className="exclusive-deals"
+        classNameName="exclusive-deals"
         sx={{
           "&:hover": {
             //backgroundColor: "#EB5939",
@@ -233,7 +233,7 @@ const HomeLastSection = () => {
           width={"30%"}
         >
           <Typography
-            className="exclusive-deals"
+            classNameName="exclusive-deals"
             color={"#EB5939"}
             fontSize={"50px"}
             fontFamily={"Montserrat"}
@@ -242,7 +242,7 @@ const HomeLastSection = () => {
             Exclusive Deals and Discounts
           </Typography>
           <Button
-            className="exclusive-deals-button"
+            classNameName="exclusive-deals-button"
             sx={{
               mt: "10px",
               color: "white",

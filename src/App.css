@@ -9,11 +9,11 @@ body{
     align-items: center;
     background-color: transparent;
     display: flex;
-    gap: 192px;
+    /* gap: 192px; */
     height: auto;
     justify-content: center;
-    position: relative;
-    padding: 30px;
+    position: sticky;
+    /* padding: 30px; */
     padding-top: 15px;
 }
 

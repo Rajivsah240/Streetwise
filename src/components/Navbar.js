@@ -5,9 +5,6 @@ import { Stack,Button } from "@mui/material";
 const Navbar = () => {
   return (
     <Stack className="navbar" flexDirection={"row"} justifyContent={"space-around"}>
-      <Button className="left-btn">
-        <MenuBtn />
-      </Button>
       <div className="LOGO">
         <div className="streetwise">StreetWise</div>
       </div>
